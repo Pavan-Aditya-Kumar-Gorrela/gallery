@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .gallery-item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  button.delete-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #c9302c;
+  }
+  
